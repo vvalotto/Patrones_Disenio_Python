@@ -1,0 +1,12 @@
+El comportamiento del módulo debería servir para un propósito singular
+
+Para tener en cuenta
+1. Como son los cambios en la clases
+
+Las clases que cambian con diferentes frecuencias deberían estar en mmodulos separados.
+Las clases que cambian con la misma frecuencia deberían estar en el mismo módulo
+
+2. Como el reuso de las clases
+
+Las clases que no son reusadas juntas deberían estar en mmodulos separados.
+Las clases que son reusadas juntas deberían estar en el mismo módulo
