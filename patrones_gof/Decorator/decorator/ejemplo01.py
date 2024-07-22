@@ -2,6 +2,7 @@
 Asignar funciones a variables
 """
 
+
 def saludar(nombre):
     return "Hola " + nombre
 

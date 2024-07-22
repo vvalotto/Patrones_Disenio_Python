@@ -15,6 +15,7 @@ class Publisher(object):
         #sobreescrito
         pass
 
+
 class TechForum(Publisher):
     def __init__(self):
         self._lista_de_usuarios = []
