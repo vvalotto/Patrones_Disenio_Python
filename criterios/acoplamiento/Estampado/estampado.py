@@ -14,7 +14,10 @@ class VerificadorDireccion:
         # Lógica para verificar la dirección
         return True if direccion else False
 
-cliente = Cliente("Maria", "Calle Falsa 123", "123456789", "maria@example.com")
+cliente = Cliente("Maria",
+                  "Calle Falsa 123",
+                  "123456789",
+                  "maria@example.com")
 verificador = VerificadorDireccion()
 es_valida = verificador.verificar(cliente)
 print(f"La dirección de {cliente.nombre} es válida: {es_valida}")
